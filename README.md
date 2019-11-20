@@ -28,7 +28,6 @@
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Lat%203b%20J2.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Lat%203c%20J2.png)
 # Uji Kebolehan
-![Alt Text](https://github.com/memorezasabana/GUI/blob/master/UK1.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/UK2.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/UK3.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/UK4.png)
