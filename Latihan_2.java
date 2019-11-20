@@ -3,9 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GUILanjutan;
-
-import javax.swing.table.DefaultTableModel;
+package Latihan;
 
 /**
  *
@@ -29,173 +27,129 @@ public class Latihan_2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        Nama = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        TA = new javax.swing.JTextArea();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        Sekolah = new javax.swing.JTextField();
-        Nama = new javax.swing.JTextField();
+        Absen = new javax.swing.JTextField();
+        Kelas = new javax.swing.JTextField();
         Alamat = new javax.swing.JTextField();
-        Kelas = new javax.swing.JComboBox();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jPanel2.setLayout(null);
+        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("Sekolah");
-        jPanel2.add(jLabel2);
-        jLabel2.setBounds(20, 180, 90, 30);
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        jLabel1.setText("Formulir");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(179, 13, 51, 16);
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Tabel Biodata");
-        jPanel2.add(jLabel3);
-        jLabel3.setBounds(150, 20, 90, 20);
-
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Nama");
-        jPanel2.add(jLabel4);
-        jLabel4.setBounds(20, 60, 90, 30);
-
-        jLabel5.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Kelas");
-        jPanel2.add(jLabel5);
-        jLabel5.setBounds(20, 100, 90, 30);
-
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Alamat");
-        jPanel2.add(jLabel6);
-        jLabel6.setBounds(20, 140, 90, 30);
-
-        Sekolah.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                SekolahActionPerformed(evt);
-            }
-        });
-        jPanel2.add(Sekolah);
-        Sekolah.setBounds(90, 180, 200, 30);
+        jLabel2.setText("Nama");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(50, 40, 50, 30);
 
         Nama.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 NamaActionPerformed(evt);
             }
         });
-        jPanel2.add(Nama);
-        Nama.setBounds(90, 60, 200, 30);
+        jPanel1.add(Nama);
+        Nama.setBounds(120, 40, 220, 30);
+
+        TA.setColumns(20);
+        TA.setRows(5);
+        jScrollPane1.setViewportView(TA);
+
+        jPanel1.add(jScrollPane1);
+        jScrollPane1.setBounds(50, 230, 290, 110);
+
+        jLabel3.setText("Absen");
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(50, 80, 50, 30);
+
+        jLabel4.setText("Kelas");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(50, 120, 60, 30);
+
+        jLabel5.setText("Alamat");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(50, 160, 60, 30);
+
+        Absen.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AbsenActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Absen);
+        Absen.setBounds(120, 80, 220, 30);
+
+        Kelas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                KelasActionPerformed(evt);
+            }
+        });
+        jPanel1.add(Kelas);
+        Kelas.setBounds(120, 120, 220, 30);
 
         Alamat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AlamatActionPerformed(evt);
             }
         });
-        jPanel2.add(Alamat);
-        Alamat.setBounds(90, 140, 200, 30);
+        jPanel1.add(Alamat);
+        Alamat.setBounds(120, 160, 220, 30);
 
-        Kelas.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "XI RPL 1", "XI RPL 2", "XI RPL 3", "XI RPL 4", "XI RPL 5", "XI RPL 6", "XI RPL 7", " " }));
-        jPanel2.add(Kelas);
-        Kelas.setBounds(90, 100, 80, 30);
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Nama", "Kelas", "Alamat", "Sekolah"
-            }
-        ) {
-            Class[] types = new Class [] {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-            };
-
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-        });
-        jScrollPane1.setViewportView(jTable1);
-
-        jPanel2.add(jScrollPane1);
-        jScrollPane1.setBounds(20, 300, 350, 90);
-
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton1.setText("Exit");
+        jButton1.setText("OKE");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton1);
-        jButton1.setBounds(200, 250, 70, 25);
+        jPanel1.add(jButton1);
+        jButton1.setBounds(160, 200, 55, 25);
 
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jButton2.setText("Add");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jPanel2.add(jButton2);
-        jButton2.setBounds(90, 250, 70, 25);
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 400, 350);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\TUF\\Pictures\\foto\\smktelkommalang.jpg")); // NOI18N
-        jPanel2.add(jLabel1);
-        jLabel1.setBounds(0, 0, 390, 410);
-
-        getContentPane().add(jPanel2);
-        jPanel2.setBounds(0, 0, 390, 410);
-
-        setSize(new java.awt.Dimension(404, 459));
+        setSize(new java.awt.Dimension(418, 397));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void SekolahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SekolahActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SekolahActionPerformed
 
     private void NamaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NamaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_NamaActionPerformed
+
+    private void AbsenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AbsenActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_AbsenActionPerformed
+
+    private void KelasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_KelasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_KelasActionPerformed
 
     private void AlamatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlamatActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_AlamatActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       dispose();
+       String nama = Nama.getText();
+       String absen = Absen.getText();
+       String kelas = Kelas.getText();
+       String alamat = Alamat.getText();
+       
+       TA.setText("Nama siswa \t:"+nama+"\n"+
+                  "Absen      \t:"+absen+"\n"+
+                  "Kelas      \t:"+kelas+"\n"+
+                  "Alamat siswa\t:"+alamat);
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-   String nama = Nama.getText();
-   String kelas = Kelas.getSelectedItem().toString();
-   String alamat = Alamat.getText();
-   String sekolah = Sekolah.getText();
-   //untuk combobox
-   if (Kelas.getSelectedItem()== "XI RPL 1"){
-   }if (Kelas.getSelectedItem()== "XI RPL 2"){
-   }if (Kelas.getSelectedItem()== "XI RPL 3"){
-   }if (Kelas.getSelectedItem()== "XI RPL 4"){
-   }if (Kelas.getSelectedItem()== "XI RPL 5"){
-   }if (Kelas.getSelectedItem()== "XI RPL 6"){
-   }if (Kelas.getSelectedItem()== "XI RPL 7");
-   //untuk Tabel
-        DefaultTableModel model = (DefaultTableModel) jTable1.getModel();
-        model.addRow(new Object[]{Nama.getText(),
-         Kelas.getSelectedItem(),Alamat.getText(),
-         Sekolah.getText()});
-            
-    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -233,20 +187,18 @@ public class Latihan_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField Absen;
     private javax.swing.JTextField Alamat;
-    private javax.swing.JComboBox Kelas;
+    private javax.swing.JTextField Kelas;
     private javax.swing.JTextField Nama;
-    private javax.swing.JTextField Sekolah;
+    private javax.swing.JTextArea TA;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
