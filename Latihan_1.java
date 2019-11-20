@@ -32,15 +32,15 @@ public class Latihan_1 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jTextField2 = new javax.swing.JTextField();
+        Alamat2 = new javax.swing.JTextField();
         Kelas = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         Nama = new javax.swing.JTextField();
+        Kelas1 = new javax.swing.JTextField();
         Nama1 = new javax.swing.JTextField();
-        jTextField6 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
 
@@ -73,13 +73,13 @@ public class Latihan_1 extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(60, 250, 40, 30);
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        Alamat2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                Alamat2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField2);
-        jTextField2.setBounds(110, 290, 230, 30);
+        getContentPane().add(Alamat2);
+        Alamat2.setBounds(110, 290, 230, 30);
 
         Kelas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -121,21 +121,21 @@ public class Latihan_1 extends javax.swing.JFrame {
         getContentPane().add(Nama);
         Nama.setBounds(110, 60, 230, 30);
 
+        Kelas1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Kelas1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Kelas1);
+        Kelas1.setBounds(110, 250, 230, 30);
+
         Nama1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Nama1ActionPerformed(evt);
             }
         });
         getContentPane().add(Nama1);
-        Nama1.setBounds(110, 250, 230, 30);
-
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jTextField6);
-        jTextField6.setBounds(110, 210, 230, 30);
+        Nama1.setBounds(110, 210, 230, 30);
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel8.setText("Formulir Biodata");
@@ -164,11 +164,11 @@ public class Latihan_1 extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String nama = Nama.getText();
-        Nama1.setText(nama);
+        Kelas1.setText(nama);
         String kelas = Kelas.getText();
-        jTextField6.setText(kelas);
+        Nama1.setText(kelas);
         String alamat = Alamat.getText();
-        jTextField2.setText(alamat);
+        Alamat2.setText(alamat);
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -176,13 +176,13 @@ public class Latihan_1 extends javax.swing.JFrame {
        
     }//GEN-LAST:event_NamaActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void Alamat2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Alamat2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_Alamat2ActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void Nama1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nama1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }//GEN-LAST:event_Nama1ActionPerformed
 
     private void AlamatActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AlamatActionPerformed
         // TODO add your handling code here:
@@ -192,9 +192,9 @@ public class Latihan_1 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_KelasActionPerformed
 
-    private void Nama1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Nama1ActionPerformed
+    private void Kelas1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Kelas1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_Nama1ActionPerformed
+    }//GEN-LAST:event_Kelas1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -233,7 +233,9 @@ public class Latihan_1 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Alamat;
+    private javax.swing.JTextField Alamat2;
     private javax.swing.JTextField Kelas;
+    private javax.swing.JTextField Kelas1;
     private javax.swing.JTextField Nama;
     private javax.swing.JTextField Nama1;
     private javax.swing.JButton jButton1;
@@ -246,7 +248,5 @@ public class Latihan_1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField6;
     // End of variables declaration//GEN-END:variables
 }
