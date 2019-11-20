@@ -10,6 +10,8 @@
 # Kuis 1
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%201a.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%201b.png)
+![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%201c.png)
+![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%201d.png)
 # Kuis 2
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202a.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202b.png)
