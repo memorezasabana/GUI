@@ -16,7 +16,7 @@
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202a.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202b.png)
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202c.png)
-![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Kuis%202d.png)
+![Alt Text](https://github.com/memorezasabana/GUI/blob/master/2019-11-20%20(25).png)
 # Latihan 1 Jframe1
 ![Alt Text](https://github.com/memorezasabana/GUI/blob/master/Frame1.png)
 # Latihan 1 Jframe2
